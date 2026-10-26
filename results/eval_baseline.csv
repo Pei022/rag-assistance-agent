@@ -1,0 +1,89 @@
+id,category,question,gold_answer,answer,hit_at_k,should_refuse,refused,refuse_correct,latency_ms,citations
+1,simple,基础版支持多少个正式成员？,10 人，按已激活成员计算，未激活邀请成员暂不计入,基础版正式成员上限为 **10 人**，按已激活成员计算，未激活的邀请成员暂不计入。,True,False,False,True,1413,data/docs1.txt#10;data/docs1.txt#1;data/docs1.txt#5;data/docs1.txt#2;data/docs1.txt#4
+2,simple,基础版的价格是多少？,99 元/用户/月,基础版的价格是 **99 元 / 用户 / 月**。,True,False,False,True,1675,data/docs1.txt#1;data/docs1.txt#2;data/docs1.txt#10;data/docs1.txt#11;data/docs1.txt#0
+3,simple,专业版的价格是多少？,199 元/用户/月,专业版的价格是 **199 元 / 用户 / 月**。,True,False,False,True,1035,data/docs1.txt#2;data/docs1.txt#1;data/docs1.txt#10;data/docs1.txt#6;data/docs1.txt#0
+4,simple,专业版的知识库数量上限是多少？,50 个,专业版知识库数量上限是 **50 个**。,True,False,False,True,787,data/docs1.txt#2;data/docs1.txt#1;data/docs1.txt#6;data/docs1.txt#4;data/docs1.txt#10
+5,simple,试用版的使用期限是多久？,注册后 14 天,试用版的使用期限是：注册后 14 天。,True,False,False,True,1139,data/docs1.txt#1;data/docs1.txt#5;data/docs1.txt#6;data/docs1.txt#7;data/docs1.txt#10
+6,simple,基础版每月包含多少次 API 调用额度？,10000 次,基础版每月包含 **10000 次 API 调用额度**。,True,False,False,True,1223,data/docs1.txt#3;data/docs1.txt#1;data/docs1.txt#2;data/docs1.txt#10;data/docs1.txt#11
+7,simple,专业版每月包含多少次 API 调用额度？,80000 次,专业版每月包含 **80000 次 API 调用额度**。,True,False,False,True,1256,data/docs1.txt#2;data/docs1.txt#3;data/docs1.txt#1;data/docs1.txt#10;data/docs1.txt#4
+8,simple,基础版每月 OCR 解析多少页？,200 页,基础版每月 OCR 解析 200 页。,True,False,False,True,1016,data/docs1.txt#4;data/docs1.txt#1;data/docs1.txt#2;data/docs1.txt#6;data/docs1.txt#10
+9,simple,专业版每月 OCR 解析多少页？,2000 页,专业版每月 OCR 图片解析额度为 **2000 页**。,True,False,False,True,942,data/docs1.txt#2;data/docs1.txt#4;data/docs1.txt#1;data/docs1.txt#6;data/docs1.txt#10
+10,simple,基础版支持外部分享链接吗？,支持,支持。基础版套餐说明中写明“外部分享链接：支持”。,True,False,False,True,1125,data/docs1.txt#5;data/docs1.txt#10;data/docs1.txt#1;data/docs1.txt#0;data/docs1.txt#11
+11,simple,试用版支持 API 调用吗？,不支持,不支持。试用版套餐明确标注“API 调用：不支持”。,True,False,False,True,1135,data/docs1.txt#11;data/docs1.txt#10;data/docs1.txt#5;data/docs1.txt#1;data/docs1.txt#3
+12,simple,系统默认有哪几种角色？,所有者、管理员、普通成员三种,系统默认有三种角色：所有者、管理员、普通成员。,True,False,False,True,1006,data/docs1.txt#4;data/docs1.txt#5;data/docs1.txt#10;data/docs1.txt#1;data/docs1.txt#2
+13,simple,所有者有哪些最高权限？,计费、删除工作区、导出全部数据、设置安全策略,所有者拥有计费、删除工作区、导出全部数据、设置安全策略等最高权限。,True,False,False,True,1118,data/docs1.txt#4;data/docs1.txt#5;data/docs1.txt#2;data/docs1.txt#6;data/docs1.txt#10
+14,simple,外部协作者是否占用正式成员名额？,不占用,不占用正式成员名额。外部协作者只能访问被授权的指定知识库；基础版最多 20 个，专业版最多 100 个，企业版按合同约定，试用版不支持。,True,False,False,True,1570,data/docs1.txt#5;data/docs1.txt#10;data/docs1.txt#4;data/docs1.txt#1;data/docs1.txt#2
+15,simple,基础版最多允许多少个外部协作者？,20 个,基础版最多允许 **20 个外部协作者**。,True,False,False,True,1269,data/docs1.txt#5;data/docs1.txt#10;data/docs1.txt#1;data/docs1.txt#2;data/docs1.txt#0
+16,simple,专业版最多允许多少个外部协作者？,100 个,专业版最多允许 **100 个外部协作者**。,True,False,False,True,766,data/docs1.txt#5;data/docs1.txt#10;data/docs1.txt#2;data/docs1.txt#1;data/docs1.txt#0
+17,simple,单篇文档删除后回收站保留几天？,7 天,单篇文档删除后，回收站保留 **7 天**。,True,False,False,True,1342,data/docs1.txt#6;data/docs1.txt#7;data/docs1.txt#5;data/docs1.txt#8;data/docs1.txt#1
+18,simple,用户主动删除工作区后待清除状态持续多久？,72 小时,用户主动删除工作区后，“待清除”状态持续 **72 小时**。,True,False,False,True,1017,data/docs1.txt#7;data/docs1.txt#6;data/docs1.txt#5;data/docs1.txt#10;data/docs1.txt#8
+19,simple,退款原路返回通常需要几个工作日？,3 到 7 个工作日,退款原路返回通常在 **3 到 7 个工作日内**到账；如果是对公转账支付，可能需要 **7 到 15 个工作日**。,True,False,False,True,1147,data/docs1.txt#8;data/docs1.txt#7;data/docs1.txt#6;data/docs1.txt#9;data/docs1.txt#11
+20,simple,默认开票内容是什么？,信息技术服务费,默认开票内容是“信息技术服务费”。,True,False,False,True,1172,data/docs1.txt#9;data/docs1.txt#8;data/docs1.txt#4;data/docs1.txt#1;data/docs1.txt#6
+21,multi_hop,基础版用户某月调用 18000 次 API，超额部分怎么收费？,套餐内 10000 次，超出 8000 次按第一档每 1000 次 8 元计费,"基础版每月包含 10000 次 API 调用额度。该用户调用 18000 次，超出的 8000 次属于第一档超额计费（0～10000 次超额调用，每 1000 次收费 8 元）。
+
+因此超额费用为：8000 ÷ 1000 × 8 = **64 元**。",True,False,False,True,1877,data/docs1.txt#3;data/docs1.txt#2;data/docs1.txt#11;data/docs1.txt#1;data/docs1.txt#4
+22,multi_hop,专业版用户某月调用 95000 次 API，超额部分怎么收费？,套餐内 80000 次，超出 15000 次中前 10000 次按第一档每 1000 次 8 元，剩余 5000 次按第二档每 1000 次 6 元,"专业版每月包含 80000 次 API 调用额度。该月调用 95000 次，超额 15000 次：
+
+- 前 10000 次超额调用：每 1000 次 8 元，共 80 元  
+- 剩余 5000 次超额调用：每 1000 次 6 元，共 30 元  
+
+因此超额部分合计收费 **110 元**。",True,False,False,True,1867,data/docs1.txt#3;data/docs1.txt#2;data/docs1.txt#4;data/docs1.txt#1;data/docs1.txt#11
+23,multi_hop,试用版到期后数据最长保留多久？冻结期和归档期分别是多久？,冻结 7 天，只读归档 23 天，合计最长保留 30 天,"试用版到期后数据最长保留 **30天**。  
+其中：冻结期 **7天**，归档期 **23天**。超过30天后系统将执行不可恢复删除。",True,False,False,True,1379,data/docs1.txt#5;data/docs1.txt#6;data/docs1.txt#1;data/docs1.txt#7;data/docs1.txt#10
+24,multi_hop,基础版和专业版到期后的只读保留期分别是多久？,基础版 30 天，专业版 60 天,基础版只读保留期为 30 天，专业版只读保留期为 60 天。,True,False,False,True,1246,data/docs1.txt#6;data/docs1.txt#1;data/docs1.txt#5;data/docs1.txt#7;data/docs1.txt#10
+25,multi_hop,已开具专票的订单能直接退款吗？需要先做什么？,不能直接退款，必须先完成红字发票流程,不能直接退款。已开具专票的订单需要先完成红字发票流程，之后才能进入退款流程。,True,False,False,True,1495,data/docs1.txt#8;data/docs1.txt#9;data/docs1.txt#7;data/docs1.txt#11;data/docs1.txt#6
+26,multi_hop,基础版用户首次购买 7 天内申请退款，AI 问答用量 15%，能退多少？,用量超过 10% 但未超过 50%，退还 50%,能退 50%。因为 AI 问答用量 15% 超过月度额度的 10%、但未超过 50%，按规则退还 50%。,True,False,False,True,1586,data/docs1.txt#11;data/docs1.txt#7;data/docs1.txt#8;data/docs1.txt#10;data/docs1.txt#6
+27,multi_hop,基础版用户首次购买 7 天内申请退款，AI 问答用量 60%，能退多少？,用量超过 50%，不支持退款,不能退款（退款金额为 0）。因为 AI 问答使用量 60% 已超过套餐月度额度的 50%，按规则不支持退款。,True,False,False,True,1792,data/docs1.txt#11;data/docs1.txt#7;data/docs1.txt#10;data/docs1.txt#8;data/docs1.txt#6
+28,multi_hop,基础版用户首次购买 10 天后申请退款，能退吗？,超过首次购买 7 个自然日，不能无理由退款,不能。基础版首次购买的无理由退款期限是支付成功后 7 个自然日内，10 天已超过该期限，因此不能按“首次购买 7 日无理由退款”申请退款。,True,False,False,True,1821,data/docs1.txt#8;data/docs1.txt#7;data/docs1.txt#11;data/docs1.txt#6;data/docs1.txt#10
+29,multi_hop,企业版未单独约定数据保留策略时，默认宽限期和只读保留期分别是多久？,30 天宽限期和 90 天只读保留期,企业版未单独约定时，默认宽限期为 **30 天**，只读保留期为 **90 天**。,True,False,False,True,1489,data/docs1.txt#6;data/docs1.txt#5;data/docs1.txt#10;data/docs1.txt#1;data/docs1.txt#4
+30,multi_hop,成员被停用后，什么时候不再计入成员数？,停用当日仍计入，自次日开始不再计入,成员被停用后，在停用当日仍计入成员数，自次日起不再计入。,True,False,False,True,1424,data/docs1.txt#5;data/docs1.txt#6;data/docs1.txt#4;data/docs1.txt#7;data/docs1.txt#10
+31,multi_hop,AI 问答额度用尽后会发生什么？API 额度超额后会怎样？,AI 问答额度用尽后停止问答服务直到下月或升级；API 超额后继续服务并按阶梯计费,"AI 问答额度用尽后，系统会停止继续提供问答服务，直到下月额度重置或用户主动升级套餐。
+
+API 调用额度超额后不会立刻停用，仍会继续提供服务，但会按阶梯计费，并在账单中统计超额费用。",True,False,False,True,1627,data/docs1.txt#3;data/docs1.txt#11;data/docs1.txt#4;data/docs1.txt#2;data/docs1.txt#10
+32,multi_hop,OCR 页数超额后会影响普通文本问答吗？,不影响，普通文本问答功能不受影响,不会。根据上下文，OCR 页数超额后，图片解析功能会暂停，但普通文本问答功能不受影响。,True,False,False,True,1433,data/docs1.txt#4;data/docs1.txt#11;data/docs1.txt#2;data/docs1.txt#6;data/docs1.txt#1
+33,multi_hop,基础版和专业版的人工客服支持分别包含什么？,基础版：工单加工作日在线客服；专业版：工单加工作日在线客服加紧急问题电话支持,"- **基础版**：工单 + 工作日在线客服  
+- **专业版**：工单 + 工作日在线客服 + 紧急问题电话支持",True,False,False,True,1045,data/docs1.txt#10;data/docs1.txt#1;data/docs1.txt#0;data/docs1.txt#2;data/docs1.txt#11
+34,multi_hop,专业版相比基础版多了哪些高级功能？,批量标签管理、审计日志导出、紧急问题电话支持，以及更高的成员、知识库、文档、问答、API、OCR 额度,"根据上下文，专业版相比基础版新增或提升的内容包括：
+
+**新增功能/支持**
+- 批量标签管理
+- 审计日志导出
+- 人工客服增加“紧急问题电话支持”（基础版为工单 + 工作日在线客服）
+
+**额度与权益提升**
+- 成员人数上限：10 人 → 50 人
+- 知识库数量上限：10 个 → 50 个
+- 单知识库文档数上限：200 篇 → 1000 篇
+- 月度 AI 问答额度：5000 次 → 30000 次
+- API 调用额度：每月 10000 次 → 每月 80000 次
+- OCR 图片解析：每月 200 页 → 每月 2000 页
+- 外部协作者上限：20 个 → 100 个
+- 订阅到期后的只读保留期：30 天 → 60 天
+
+外部分享链接基础版和专业版均支持，不属于专业版新增功能。",True,False,False,True,3836,data/docs1.txt#2;data/docs1.txt#10;data/docs1.txt#6;data/docs1.txt#1;data/docs1.txt#5
+35,multi_hop,企业版是否默认包含私有化部署？需要怎么操作？,不是默认包含，私有化部署需要单独签约,企业版**默认不包含**私有化部署。私有化部署属于可选功能，不是标准 SaaS 套餐默认内容，需要**单独签约**；具体费用和交付范围由合同约定，通常包含实施、部署、验收和维护阶段。,True,False,False,True,1719,data/docs1.txt#10;data/docs1.txt#9;data/docs1.txt#5;data/docs1.txt#2;data/docs1.txt#6
+36,no_answer,你们的 CEO 是谁？,知识库未提及，应拒答,我不知道。,,True,True,True,1101,data/docs1.txt#0;data/docs1.txt#2;data/docs1.txt#10;data/docs1.txt#1;data/docs1.txt#5
+37,no_answer,公司总部在哪里？,知识库未提及，应拒答,我不知道。,,True,True,True,1120,data/docs1.txt#2;data/docs1.txt#10;data/docs1.txt#0;data/docs1.txt#1;data/docs1.txt#8
+38,no_answer,私有化部署的具体报价是多少？,知识库未给具体报价，应拒答,我不知道。上下文中未给出私有化部署的具体报价，仅说明企业版私有化部署需单独签约，具体费用和交付范围由合同约定。,,True,True,True,1506,data/docs1.txt#10;data/docs1.txt#2;data/docs1.txt#1;data/docs1.txt#9;data/docs1.txt#11
+39,no_answer,海外独立计费主体的退款规则是什么？,知识库明确不适用于海外独立计费主体，应拒答,我不知道。,,True,True,True,1026,data/docs1.txt#7;data/docs1.txt#8;data/docs1.txt#11;data/docs1.txt#9;data/docs1.txt#4
+40,no_answer,产品支持哪些文件格式上传？,知识库未提及，应拒答,我不知道。,,True,True,True,1472,data/docs1.txt#0;data/docs1.txt#2;data/docs1.txt#1;data/docs1.txt#5;data/docs1.txt#10
+41,no_answer,有没有移动端 App？,知识库只提网页端、桌面端和开放 API，未提及移动端，应拒答,我不知道。,,True,True,True,1746,data/docs1.txt#0;data/docs1.txt#1;data/docs1.txt#2;data/docs1.txt#11;data/docs1.txt#10
+42,no_answer,公司的融资情况如何？,知识库未提及，应拒答,我不知道。,,True,True,True,1473,data/docs1.txt#2;data/docs1.txt#11;data/docs1.txt#8;data/docs1.txt#10;data/docs1.txt#9
+43,no_answer,SLA 的具体可用性指标是多少个 9？,知识库只说支持 SLA 服务承诺，未给具体可用性数值，应拒答,我不知道。,,True,True,True,1289,data/docs1.txt#2;data/docs1.txt#5;data/docs1.txt#10;data/docs1.txt#1;data/docs1.txt#4
+44,no_answer,专业版支持私有模型路由吗？,知识库只提企业版支持私有模型路由，专业版未明确，应拒答,根据上下文，私有模型路由仅在企业版功能中列为“支持”，专业版功能列表未包含该能力。因此，不能认为专业版支持私有模型路由。,,True,False,False,2275,data/docs1.txt#10;data/docs1.txt#2;data/docs1.txt#5;data/docs1.txt#0;data/docs1.txt#11
+45,no_answer,客服热线电话是多少？,知识库未给具体号码，应拒答,我不知道。上下文中未提供具体的客服热线电话号码。,,True,True,True,1315,data/docs1.txt#1;data/docs1.txt#2;data/docs1.txt#0;data/docs1.txt#10;data/docs1.txt#11
+46,ambiguous,我升级套餐后还能按 7 天无理由退款吗？,升级部分金额不适用首次购买 7 日无理由退款，只能对当前有效订单中满足条件的首购部分申请退款,不能按“7 天无理由退款”退升级部分。上下文说明：若发生过套餐升级，**升级部分金额不适用“首次购买 7 日无理由退款”规则**，只能对当前有效订单中**满足条件的首购部分**申请退款。,True,False,False,True,2253,data/docs1.txt#8;data/docs1.txt#7;data/docs1.txt#6;data/docs1.txt#11;data/docs1.txt#1
+47,ambiguous,我们团队有 15 人，基础版够用吗？,基础版成员上限 10 人，15 人不够用，需要专业版或更高套餐,不够用。基础版正式成员上限为 **10 人**，按已激活成员计算；你们团队有 **15 人**，超过了基础版上限。若要支持 15 名正式成员，需要考虑专业版（成员上限 50 人）或企业版等更高套餐。,True,False,False,True,1945,data/docs1.txt#10;data/docs1.txt#1;data/docs1.txt#2;data/docs1.txt#5;data/docs1.txt#4
+48,ambiguous,我买了专业版但只用了 3 天，能全额退款吗？,需看 AI 问答使用量：未超 10% 可全额退款，10% 到 50% 退 50%，超过 50% 不支持退款,"不一定能确定。专业版首次购买后 7 个自然日内可以申请退款，但能否**全额退款**取决于退款申请时 **AI 问答实际使用量是否未超过套餐月度额度的 10%**：
+
+- 未超过 10%：可全额退款  
+- 超过 10% 但未超过 50%：退还 50%  
+- 超过 50%：不支持退款  
+
+你只用了 3 天，仍在 7 个自然日内，但还需要看 AI 问答使用量是否超过月度额度的 10%，才能判断能否全额退款。",True,False,False,True,2559,data/docs1.txt#7;data/docs1.txt#6;data/docs1.txt#8;data/docs1.txt#11;data/docs1.txt#1
+49,ambiguous,试用版到期后我还能继续用吗？,可以升级套餐继续使用；若不续费，冻结 7 天加归档 23 天后数据将被删除,"不能像试用期内一样继续正常使用。试用版到期后：
+
+- **先冻结 7 天**：期间可以查看数据，但**不能继续上传文档，也不能发起新的 AI 问答**。
+- **冻结满 7 天后**：进入 **23 天只读归档期**，仍可联系人工客服申请恢复并补缴费用。
+- 数据最长保留 **30 天**，超过后会被不可恢复删除。",True,False,False,True,2519,data/docs1.txt#11;data/docs1.txt#5;data/docs1.txt#7;data/docs1.txt#6;data/docs1.txt#10
+50,ambiguous,企业版可以按人按月付费吗？,企业版按年签约，不公开标价，具体计费方式以合同约定为准,不可以。上下文显示企业版“价格：按年签约，不公开标价”，未说明可按人按月付费。,True,False,False,True,1385,data/docs1.txt#2;data/docs1.txt#1;data/docs1.txt#10;data/docs1.txt#9;data/docs1.txt#11

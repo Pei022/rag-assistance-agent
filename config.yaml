@@ -1,0 +1,29 @@
+milvus:
+  uri: "http://localhost:19530"
+  db_name: "rag_tutorial"
+  collection_name: "docs"
+  metric_type: "COSINE"
+
+embed:
+  model: 'BAAI/bge-m3'
+  dim: 1024
+  batch_size: 32
+
+chunking:
+  chunk_size: 500
+  chunk_overlap: 100
+  separators:
+    - "\n\n"
+    - "\n"
+    - "。"
+    - "，"
+    - " "
+    - ""
+
+retrieval:
+  top_k: 5
+
+llm:
+ model1: 'deepseek:deepseek-flash'
+ model2: 'openai:gpt-5.4-mini'
+
